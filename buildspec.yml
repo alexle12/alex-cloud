@@ -8,7 +8,7 @@ phases:
 
       #install nodeJS & npm
       - apt-get install -y nodejs
-  pre-build:
+  pre_build:
     commands:
       #install the react/NodeJS dependencies
       - npm install
